@@ -44,12 +44,12 @@ int process_moves(FILE *file, Plansza_t *b, int *score, int *successful) {
             if (b->board[x][y] == 'M') { // Trafienie na minę
                 *successful = 0;
                 break;
-            } else { // Odkrycie pola
+            } else { 
                 correct_moves++;
-                *score += 10;
+                *score += 1;
             }
         } else if (action == 'f') {
-            // Operacja oznaczania flagą - brak wpływu na wynik
+            
         }
     }
 
