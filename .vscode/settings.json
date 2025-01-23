@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "gra_z_pliku.h": "c",
+        "stdio.h": "c"
+    }
+}
